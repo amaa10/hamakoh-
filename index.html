@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浜田高校オープンスクール</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e0f2fe; /* Light blue background */
+        }
+        .text-shadow-pop {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .btn-pop {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn-pop:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card-pop {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card-pop:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white text-shadow-pop tracking-tight leading-tight">
+                浜田高校オープンスクール
+            </h1>
+            <p class="mt-2 text-xl sm:text-2xl text-white font-medium">
+                君の「楽しい！」が、きっと見つかる。
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container mx-auto px-4 py-12">
+
+        <!-- Welcome Section -->
+        <section class="bg-white p-6 sm:p-8 rounded-3xl shadow-lg mb-12">
+            <div class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8">
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/600x400/81c784/ffffff?text=楽しそうな生徒たち" alt="楽しそうに校内で話している浜田高校の生徒たち" class="rounded-2xl shadow-md w-full h-auto">
+                </div>
+                <div class="md:w-1/2 text-center md:text-left">
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-blue-800">
+                        はじめまして、浜田高校です！
+                    </h2>
+                    <p class="text-lg leading-relaxed">
+                        「高校って、どんな感じ？」
+                        <br>
+                        「堅いイメージがあるな…」
+                        <br>
+                        そんな風に思っていませんか？
+                        <br>
+                        浜田高校は、勉強も部活も学校行事も、全部全力で楽しむ先輩たちがたくさんいます！
+                        <br>
+                        このオープンスクールで、君の知らない「浜高」の魅力を発見してください！
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="mb-12">
+            <h2 class="text-center text-3xl sm:text-4xl font-bold mb-8 text-blue-800">
+                ここがすごい！3つのポイント
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Point 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg card-pop text-center">
+                    <div class="text-4xl text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.418 9.222 5 7.5 5S4.168 5.418 3 6.253v13C4.168 18.418 5.778 18 7.5 18s3.332.418 4.5 1.253m0-13C13.168 5.418 14.778 5 16.5 5c1.722 0 3.332.418 4.5 1.253v13C19.832 18.418 18.222 18 16.5 18c-1.722 0-3.332.418-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">リアルな授業に潜入！</h3>
+                    <p>
+                        普通科、理数科、探求科。それぞれの「楽しい！」が詰まった体験授業を用意しました。
+                    </p>
+                </div>
+                <!-- Point 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg card-pop text-center">
+                    <div class="text-4xl text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h-4a2 2 0 01-2-2V9a2 2 0 012-2h4a2 2 0 012 2v9a2 2 0 01-2 2z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11l-3 3-3-3" />
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h8" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">先輩と本音トーク！</h3>
+                    <p>
+                        高校生活のギモンは、先輩に聞くのが一番！パンフレットには載っていないリアルな話を聞いてみよう。
+                    </p>
+                </div>
+                <!-- Point 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg card-pop text-center">
+                    <div class="text-4xl text-blue-500 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                          <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.057a11.952 11.952 0 00-6.824-2.712 12.078 12.078 0 01.665-6.479L12 14z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">部活の迫力に感動！</h3>
+                    <p>
+                        熱い練習風景や、思わず見入ってしまうパフォーマンスを、この目で確かめてみて。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="mb-12">
+            <h2 class="text-center text-3xl sm:text-4xl font-bold mb-8 text-blue-800">
+                昨年のオープンスクールも大盛り上がり！
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                <div class="rounded-2xl overflow-hidden shadow-md card-pop">
+                    <img src="https://placehold.co/400x300/e0e0e0/000000?text=昨年の写真1" alt="昨年のオープンスクールでの体験授業の様子" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md card-pop">
+                    <img src="https://placehold.co/400x300/e0e0e0/000000?text=昨年の写真2" alt="昨年のオープンスクールでの個別相談の様子" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md card-pop">
+                    <img src="https://placehold.co/400x300/e0e0e0/000000?text=昨年の写真3" alt="昨年のオープンスクールでの部活動見学の様子" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-md card-pop">
+                    <img src="https://placehold.co/400x300/e0e0e0/000000?text=昨年の写真4" alt="昨年のオープンスクールでの生徒と中学生の交流" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Section -->
+        <section class="text-center">
+            <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-blue-800">
+                ワクワクを体験しよう！
+            </h2>
+            <p class="text-lg mb-6">
+                参加には事前申し込みが必要です。今すぐエントリーして、未来の扉を開けよう！
+            </p>
+            <a href="#" class="inline-block bg-blue-500 text-white font-bold text-lg sm:text-xl py-4 px-10 rounded-full shadow-lg hover:bg-blue-700 btn-pop">
+                参加申し込みはこちら！
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-4">
+                <h3 class="text-xl font-bold mb-2">開催概要</h3>
+                <p><strong>日時:</strong> 2025年11月15日（土） 9:30～12:30</p>
+                <p><strong>場所:</strong> 浜田高校 校舎</p>
+                <p><strong>対象:</strong> 中学3年生、保護者</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-bold mb-2">お問い合わせ</h3>
+                <p>浜田高校 事務室</p>
+                <p>電話: 0855-XX-XXXX</p>
+                <p>メール: info@hamada-hs.ac.jp</p>
+            </div>
+            <div class="text-sm mt-8">
+                &copy; 2025 Hamada High School. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
